@@ -1,0 +1,40 @@
+body {
+  background-image: url(../assets/bg-black.png);
+  background-color: #051428;
+  color: antiquewhite;
+  transition: .2s;
+}
+
+.icon {
+    filter: invert(100);
+}
+
+.container-form {
+  background-color: #9d3f61;
+}
+
+.container-form:hover {
+  box-shadow: 2px 2px 2px black;
+}
+
+label {
+  color: antiquewhite;
+}
+
+#user {
+  background-color: #373737;
+  color: antiquewhite;
+}
+
+.btn-toggle {
+    background: antiquewhite;
+    color: purple;
+  }
+
+.container-res {
+  background-color: #9d3f61;
+}
+
+.container-res:hover {
+  box-shadow: 2px 2px 2px black;
+}
