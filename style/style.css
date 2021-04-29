@@ -107,6 +107,10 @@ label {
   box-shadow: 2px 2px 2px purple;
 }
 
+ul {
+  list-style: none;
+}
+
 .img {
   width: 10rem;
   border-radius: 50%;
