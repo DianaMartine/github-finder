@@ -33,10 +33,11 @@ const getApi = async () => {
       follwers.textContent = `Seguidores: ${userData.followers}`;
     } else if (userData.bio == null) {
       // update elements
-       bio.setAttribute("style", "display: none;");
-       img.setAttribute("src", `${userData.avatar_url}`);
-       publicRepos.textContent = `Respositórios: ${userData.public_repos}`;
-       follwers.textContent = `Seguidores: ${userData.followers}`;
-     }
+      containerRes.setAttribute("style", "display: block");
+      bio.setAttribute("style", "display: none;");
+      img.setAttribute("src", `${userData.avatar_url}`);
+      publicRepos.textContent = `Respositórios: ${userData.public_repos}`;
+      follwers.textContent = `Seguidores: ${userData.followers}`;
+    }
   }
 };
