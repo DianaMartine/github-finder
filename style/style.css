@@ -13,52 +13,46 @@ body {
   background-image: url(../assets/bg.png);
   background-size: 100vw;
   background-repeat: no-repeat;
-  background-position-y: 25rem;
+  background-position-y: 22rem;
   transition: .2s;
 }
 
 .container-header {
   display: block;
-  width: 15rem;
   margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: -2rem;
-  font-size: 18px;
+  width: 22rem;
+  margin-top: 2rem;
+  margin-bottom: -4rem;
+  font-size: 22px;
   text-align: center;
 }
 
 .icon {
-  margin-bottom: 0.8rem;
-  width: 8px;
+  margin-bottom: 0.12rem;
+  width: 34px;
 }
 
 .container-form {
   display: block;
   margin: auto;
-  margin-top: 3rem;
-  width: 85vw;
-  background-color: pink;
+  margin-top: 8rem;
+  width: 60vw;
+  background-color: rgb(165, 152, 154);
   padding: 2rem;
   border-radius: 4px;
   opacity: 80%;
   text-align: right;
 }
 
-.container-form:hover {
-  opacity: 1;
-  transition: 0.5s;
-  box-shadow: 2px 2px 2px purple;
-}
-
 label {
   display: block;
   text-align: left;
   font-size: 1.5rem;
-  color: purple;
+  color: rgb(82, 12, 82);
 }
 
 #user {
-  width: 65vw;
+  width: 44vw;
   margin: 1rem 0;
   border: none;
   padding: 1rem;
@@ -69,9 +63,9 @@ label {
   width: 4rem;
   border: none;
   height: 2rem;
-  background-color: purple;
+  background-color: rgb(53, 3, 53);
   color: antiquewhite;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .button:hover {
@@ -82,15 +76,17 @@ label {
 .btn-toggle {
   background: #051428;
   color: white;
-  width: 4rem;
+  position: absolute;
+  width: 4.5rem;
   height: 1.2rem;
   border-radius: 4px;
   font-size: 0.5rem;
-  margin-top: 1rem;
+  margin-top: -18rem;
+  padding-right: -5rem;
   font-size: .5rem;
 }
 
-.container-res {
+.container-respost {
   display: block;
   margin: auto;
   width: 85vw;
@@ -100,12 +96,6 @@ label {
   border-radius: 4px;
   padding: 1rem;
   opacity: 92%;
-}
-
-.container-res:hover {
-  opacity: 1;
-  transition: 0.5s;
-  box-shadow: 2px 2px 2px purple;
 }
 
 ul {
@@ -141,7 +131,7 @@ footer {
   margin: auto;
   position: absolute;
   width: 100%;
-  margin-top: 1rem;
+  margin-top:  -1.5rem;
 }
 
 a {
@@ -157,7 +147,7 @@ a {
   }
 
   #user {
-    width: 320px;
+    width: 280px;
   }
 
   .container-res {
@@ -167,14 +157,7 @@ a {
 
 @media (min-width: 1024px) {
   body {
-    background-position-y: 0.5rem;
-  }
-
-  .container-header {
-    width: 18rem;
-    position: absolute;
-    margin-top: -2.5rem;
-    font-size: 20px;
+    background-position-y: 0.4rem;
   }
 
   .container-form {
