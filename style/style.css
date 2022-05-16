@@ -35,7 +35,7 @@ body {
 .container-form {
   display: block;
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 5rem;
   width: 60vw;
   background-color: rgb(165, 152, 154);
   padding: 2rem;
@@ -89,13 +89,13 @@ label {
 .container-respost {
   display: block;
   margin: auto;
-  width: 85vw;
-  margin-top: 2rem;
+  width: 28vw;
+  margin-top: 0.5rem;
   text-align: center;
-  background-color: pink;
+  background-color: rgb(165, 152, 154);
   border-radius: 4px;
   padding: 1rem;
-  opacity: 92%;
+  opacity: 90%;
 }
 
 ul {
