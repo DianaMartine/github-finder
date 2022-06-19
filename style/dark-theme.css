@@ -13,21 +13,17 @@ body {
   background-color: rgb(165, 152, 154);
 }
 
-.container-form:hover {
-  box-shadow: 2px 2px 2px black;
-}
-
 label {
   color: antiquewhite;
 }
 
 #user {
-  background-color: #373737;
-  color: antiquewhite;
+  background-color: #ffffff;
+  color: black;
 }
 
 .btn-toggle {
-    background: antiquewhite;
+    background: rgb(255, 255, 255);
     color: purple;
   }
 
